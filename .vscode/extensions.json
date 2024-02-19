@@ -1,4 +1,5 @@
 {
+  
   // See http://go.microsoft.com/fwlink/?LinkId=827846
   // for the documentation about the extensions.json format
   "recommendations": [
@@ -12,6 +13,39 @@
     "esbenp.prettier-vscode",
 
     // Understated grayscale theme (light and dark variants)
-    "philipbe.theme-gray-matter"
+    "philipbe.theme-gray-matter",
+
+    // Adds suggestions and autocomplete for emoji to VS Code.
+    "bierner.emojisense",
+
+    // Adds emoji syntax support to VS Code's built-in markdown preview and markdown cells in notebook
+    "bierner.markdown-emoji",
+    
+    // Adds Mermaid diagram and flowchart support to VS Code's builtin markdown preview
+    "bierner.markdown-mermaid",
+    
+    // Markdown syntax support for the Mermaid charting language
+    "bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+
+    // Draw schemas in VS Code using Excalidraw
+    "pomdtr.excalidraw-editor",
+
+    // Display pdf file in VSCode.
+    "tomoki1207.pdf",
+
+    // Easily switch between projects
+    "alefragnani.project-manager",
+
+    // Extended syntaxes to built-in markdown & What you see is what you get exporter.
+    "jebbs.markdown-extended",
+
+    // Automatically commit/push/pull changes on save, so you can edit a Git repo like a multi-file, versioned document.
+    "vsls-contrib.gitdoc",
+
+    // Adds [^footnote] syntax support to VS Code's built-in markdown preview
+    "bierner.markdown-footnotes",
+
+    // Show TODO, FIXME, etc. comment tags in a tree view
+    "Gruntfuggly.todo-tree"
   ]
 }
